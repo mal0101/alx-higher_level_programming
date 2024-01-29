@@ -14,6 +14,7 @@ class Rectangle:
             width (int, optional): _description_. Defaults to 0.
             height (int, optional): _description_. Defaults to 0.
         """
+        type(self).number_of_instances += 1
         self.width = width
         self.height = height
    
